@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#initially-showing").toggle();
     $("#initially-hidden").toggle();
   });
-  $(document).ready(function() {
+  
   $("button#green").click(function() {
     $("body").removeClass();
     $("body").addClass("green-background");

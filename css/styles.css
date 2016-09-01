@@ -11,6 +11,14 @@
   text-decoration: underline;
 }
 
-$("button#green").click(function() {
-  $("body").css("background-color", "green");
-});
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
